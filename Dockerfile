@@ -1,6 +1,6 @@
 # Create an image for the weather-app
 FROM node
-LABEL org.label-schema.version=v1.1
+LABEL org.label-schema-ptk.version=v1.1
 RUN mkdir -p /var/node
 ADD src/ /var/node/
 WORKDIR /var/node
